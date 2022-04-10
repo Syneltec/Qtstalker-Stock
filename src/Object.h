@@ -25,6 +25,9 @@
 #include <QObject>
 #include <QString>
 
+#define FALSE false
+#define TRUE  true
+
 #include "ObjectCommand.h"
 
 class Object : public QObject

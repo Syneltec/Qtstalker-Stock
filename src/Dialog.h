@@ -23,6 +23,7 @@
 #define DIALOG_HPP
 
 #include <QtGui>
+#include <QDialog>
 
 class Dialog : public QDialog
 {
