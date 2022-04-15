@@ -48,3 +48,4 @@ OBJECTS_DIR += build
 
 QT += core
 QT += gui
+QT += widgets

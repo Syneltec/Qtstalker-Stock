@@ -24,6 +24,9 @@
 
 #include <QtGui>
 #include <QDialog>
+#include <QDialogButtonBox>
+#include <QVBoxLayout>
+#include <QTabWidget>
 
 class Dialog : public QDialog
 {

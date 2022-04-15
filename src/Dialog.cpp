@@ -24,6 +24,8 @@
 
 #include <QtDebug>
 #include <QSettings>
+#include <QMessageBox>
+#include <QPushButton>
 
 Dialog::Dialog (QWidget *p, QString name) : QDialog (p)
 {
