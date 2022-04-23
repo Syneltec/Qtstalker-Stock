@@ -19,6 +19,7 @@
  *  USA.
  */
 
+#include <QFormLayout>
 #include "CCIDialog.h"
 #include "Util.h"
 

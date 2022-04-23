@@ -19,6 +19,7 @@
  *  USA.
  */
 
+#include <QFormLayout>
 #include "CDLDialog.h"
 #include "Util.h"
 #include "TypeCandle.h"
