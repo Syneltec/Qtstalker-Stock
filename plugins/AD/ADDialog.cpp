@@ -19,6 +19,7 @@
  *  USA.
  */
 
+#include <QFormLayout>
 #include "ADDialog.h"
 #include "Util.h"
 
