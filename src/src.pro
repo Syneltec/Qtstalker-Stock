@@ -28,7 +28,7 @@ SOURCES += Util.cpp
 TEMPLATE = app
 
 CONFIG += qt thread warn_on debug
-#CONFIG(debug, debug|release): DEFINES += DEBUG _DEBUG
+CONFIG(debug, debug|release): DEFINES += DEBUG _DEBUG
 
 QMAKE_CXXFLAGS += -fPIC -O2
 

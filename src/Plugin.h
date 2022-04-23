@@ -33,6 +33,8 @@ class Plugin
     virtual int command (PluginCommand *) = 0;
 };
 
-Q_DECLARE_INTERFACE(Plugin, "org.OTA.Plugin/1.0")
+#define SynelTradePluginIID "ch.syneltec.syneltrade.plugin/1.0"
+Q_DECLARE_INTERFACE(Plugin, SynelTradePluginIID)
+
 
 #endif

@@ -19,6 +19,8 @@
  *  USA.
  */
 
+#include "QFormLayout"
+#include "QSpinBox"
 #include "VARDialog.h"
 #include "Util.h"
 

@@ -1,3 +1,5 @@
-.qmake.cache
-qtstalker.pro.user
+Makefile
+*.so*
+**/build/
+.settings/*
 

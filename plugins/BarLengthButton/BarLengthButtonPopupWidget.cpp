@@ -19,13 +19,14 @@
  *  USA.
  */
 
+#include <QFormLayout>
 #include "BarLengthButtonPopupWidget.h"
 
 #include <QtDebug>
 
 BarLengthButtonPopupWidget::BarLengthButtonPopupWidget (QWidget *p) : QMenu (p)
 {
-  _modified = FALSE;
+  _modified = false;
   connect(this, SIGNAL(aboutToShow()), this, SLOT(clear()));
   
   createGUI();
@@ -49,7 +50,7 @@ BarLengthButtonPopupWidget::setSettings (QStringList l, QString length)
 {
   _length->addItems(l);
   _length->setCurrentIndex(_length->findText(length));
-  _modified = FALSE;
+  _modified = false;
 }
 
 QString
@@ -61,7 +62,7 @@ BarLengthButtonPopupWidget::length ()
 void
 BarLengthButtonPopupWidget::setModified ()
 {
-  _modified = TRUE;
+  _modified = true;
 }
 
 bool
@@ -73,5 +74,5 @@ BarLengthButtonPopupWidget::modified ()
 void
 BarLengthButtonPopupWidget::clear ()
 {
-  _modified = FALSE;
+  _modified = false;
 }

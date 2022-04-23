@@ -19,6 +19,7 @@
  *  USA.
  */
 
+#include <QFormLayout>
 #include "BBANDSDialog.h"
 #include "Util.h"
 

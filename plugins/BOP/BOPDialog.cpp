@@ -19,6 +19,7 @@
  *  USA.
  */
 
+#include <QFormLayout>
 #include "BOPDialog.h"
 #include "Util.h"
 

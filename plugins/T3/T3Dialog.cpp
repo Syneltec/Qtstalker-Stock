@@ -19,6 +19,7 @@
  *  USA.
  */
 
+#include "QFormLayout"
 #include "T3Dialog.h"
 #include "Util.h"
 

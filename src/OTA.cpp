@@ -23,12 +23,14 @@
 #include "Util.h"
 #include "../pics/qtstalker.xpm"
 
+#include <QIcon>
 #include <QtDebug>
 
 
 OTA::OTA (QString plugin, QString profile)
 {
-  setWindowIcon(QIcon(qtstalker_xpm));
+  QPixmap pix = QPixmap(qtstalker_xpm);
+  setWindowIcon(pix);
 
   loadApp(plugin, profile);
 }

@@ -24,6 +24,7 @@
 #define PLUGIN_AROON_DIALOG_HPP
 
 #include <QtGui>
+#include <QSpinBox>
 
 #include "Dialog.h"
 #include "Object.h"

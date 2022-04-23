@@ -19,6 +19,8 @@
  *  USA.
  */
 
+#include <QMapIterator>
+
 #include "ValuesDialogObject.h"
 #include "Util.h"
 #include "ValuesDialogDialog.h"

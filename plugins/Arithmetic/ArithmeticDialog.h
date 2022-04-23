@@ -23,6 +23,7 @@
 #define PLUGIN_ARITHMETIC_DIALOG_HPP
 
 #include <QtGui>
+#include <QComboBox>
 
 #include "Dialog.h"
 #include "Object.h"

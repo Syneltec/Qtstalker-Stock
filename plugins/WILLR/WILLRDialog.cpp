@@ -19,6 +19,7 @@
  *  USA.
  */
 
+#include <QFormLayout>
 #include "WILLRDialog.h"
 #include "Util.h"
 

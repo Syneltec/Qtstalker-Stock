@@ -19,6 +19,7 @@
  *  USA.
  */
 
+#include <QFormLayout>
 #include "ATRDialog.h"
 #include "Util.h"
 

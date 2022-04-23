@@ -24,6 +24,7 @@
 
 
 #include <QtGui>
+#include <QToolButton>
 #include "BarLengthButtonPopupWidget.h"
 
 class BarLengthButtonWidget : public QToolButton

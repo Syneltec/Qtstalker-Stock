@@ -23,6 +23,8 @@
 #define PLUGIN_BAR_LENGTH_BUTTON_POPUP_WIDGET_HPP
 
 #include <QtGui>
+#include <QComboBox>
+#include <QMenu>
 
 class BarLengthButtonPopupWidget : public QMenu
 {

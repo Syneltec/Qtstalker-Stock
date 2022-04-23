@@ -23,6 +23,7 @@
 #define DIALOG_HPP
 
 #include <QtGui>
+#include <QSettings>
 #include <QDialog>
 #include <QDialogButtonBox>
 #include <QVBoxLayout>

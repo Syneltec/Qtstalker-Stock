@@ -31,5 +31,6 @@ target.path =  $${HOME}/OTA/lib
 INSTALLS += target
 
 QT += core
-QT += widgets
 QT += gui
+QT += widgets
+

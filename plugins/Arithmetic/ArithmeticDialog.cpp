@@ -19,6 +19,7 @@
  *  USA.
  */
 
+#include <QFormLayout>
 #include "ArithmeticDialog.h"
 #include "Util.h"
 

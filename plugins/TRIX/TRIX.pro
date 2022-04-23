@@ -32,3 +32,5 @@ INSTALLS += target
 
 QT += core
 QT += gui
+QT += widgets
+

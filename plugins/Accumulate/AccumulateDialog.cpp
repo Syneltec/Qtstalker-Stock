@@ -19,6 +19,7 @@
  *  USA.
  */
 
+#include <QFormLayout>
 #include "AccumulateDialog.h"
 #include "Util.h"
 
