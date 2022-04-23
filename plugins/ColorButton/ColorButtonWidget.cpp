@@ -28,7 +28,7 @@ ColorButtonWidget::ColorButtonWidget (QWidget *w, QColor c) : QPushButton (w)
 {
   _color = c;
   connect(this, SIGNAL(clicked()), this, SLOT(colorDialog()));
-  _changed = FALSE;
+  _changed = false;
   setColorButton();
 }
 
@@ -53,7 +53,7 @@ void ColorButtonWidget::colorDialog ()
   QColorDialog *dialog = new QColorDialog(_color, 0);
   connect(dialog, SIGNAL(colorSelected(const QColor &)), this, SLOT(colorDialog2(QColor)));
   connect(dialog, SIGNAL(finished(int)), dialog, SLOT(deleteLater()));
-  dialog->setOption(QColorDialog::ShowAlphaChannel, TRUE);
+  dialog->setOption(QColorDialog::ShowAlphaChannel, true);
   dialog->show();
 }
 
@@ -66,7 +66,7 @@ void ColorButtonWidget::colorDialog2 (QColor color)
 
   setColorButton();
 
-  _changed = TRUE;
+  _changed = true;
 
   emit valueChanged();
 }
