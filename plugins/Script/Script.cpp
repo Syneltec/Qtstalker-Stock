@@ -470,5 +470,4 @@ Script::draw (QPainter *, const QwtScaleMap &, const QwtScaleMap &, const QRect 
 }
 
 
-// do not remove
-Q_EXPORT_PLUGIN2(script, Script);
+

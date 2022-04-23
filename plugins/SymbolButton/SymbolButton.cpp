@@ -51,5 +51,4 @@ SymbolButton::command (PluginCommand *pc)
   return rc;
 }
 
-// do not remove
-Q_EXPORT_PLUGIN2(SymbolButton, SymbolButton);
+

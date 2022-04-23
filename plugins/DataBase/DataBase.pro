@@ -29,3 +29,4 @@ INSTALLS += target
 QT += core
 QT += gui
 QT += sql
+QT += widgets

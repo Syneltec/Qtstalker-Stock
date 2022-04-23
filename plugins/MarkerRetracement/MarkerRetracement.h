@@ -27,8 +27,9 @@
 
 class MarkerRetracement : public QObject, public Plugin
 {
-  Q_OBJECT
-  Q_INTERFACES(Plugin)
+    Q_OBJECT
+    Q_PLUGIN_METADATA(IID SynelTradePluginIID)
+    Q_INTERFACES(Plugin)
 
   public:
     MarkerRetracement ();

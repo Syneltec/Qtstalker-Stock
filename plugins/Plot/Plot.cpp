@@ -52,5 +52,4 @@ Plot::command (PluginCommand *pc)
 }
 
 
-// do not remove
-Q_EXPORT_PLUGIN2(Plot, Plot);
+
