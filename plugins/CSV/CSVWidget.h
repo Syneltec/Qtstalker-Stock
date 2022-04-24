@@ -24,8 +24,7 @@
 #define PLUGIN_CSV_GUI_WIDGET_H
 
 #include <QtGui>
-#include <QAction>
-#include <QStringList>
+#include <QtWidgets>
 
 #include "Object.h"
 

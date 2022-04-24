@@ -22,8 +22,6 @@
 #ifndef PLUGIN_AROON_OBJECT_HPP
 #define PLUGIN_AROON_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "AROONDialog.h"
 #include "Bars.h"

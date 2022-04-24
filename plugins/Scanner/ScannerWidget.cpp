@@ -96,38 +96,38 @@ ScannerWidget::~ScannerWidget ()
 void
 ScannerWidget::createActions ()
 {
-  QAction *a = new QAction(QIcon(search_xpm), tr("Start Scan"), this);
+  QAction *a = new QAction(QIcon(QPixmap(search_xpm), tr("Start Scan"), this));
   a->setToolTip(tr("Start Scan"));
   a->setStatusTip(tr("Start Scan"));
   connect(a, SIGNAL(triggered(bool)), this, SLOT(scan()));
   _actions.insert(_SCAN, a);
   
-  a = new QAction(QIcon(stop_xpm), tr("Stop Scan"), this);
+  a = new QAction(QIcon(QPixmap(stop_xpm), tr("Stop Scan"), this));
   a->setToolTip(tr("Stop Scan"));
   a->setStatusTip(tr("Stop Scan"));
   a->setEnabled(FALSE);
   connect(a, SIGNAL(triggered(bool)), this, SIGNAL(signalStop()));
   _actions.insert(_STOP, a);
   
-  a = new QAction(QIcon(new_xpm), tr("New Indicator"), this);
+  a = new QAction(QIcon(QPixmap(new_xpm), tr("New Indicator"), this));
   a->setToolTip(tr("New Indicator"));
   a->setStatusTip(tr("New Indicator"));
   connect(a, SIGNAL(triggered(bool)), this, SLOT(newIndicator()));
   _actions.insert(_INDICATOR_NEW, a);
   
-  a = new QAction(QIcon(edit_xpm), tr("Edit Indicator"), this);
+  a = new QAction(QIcon(QPixmap(edit_xpm), tr("Edit Indicator"), this));
   a->setToolTip(tr("Edit Indicator"));
   a->setStatusTip(tr("Edit Indicator"));
   connect(a, SIGNAL(triggered(bool)), this, SLOT(editIndicator()));
   _actions.insert(_INDICATOR_EDIT, a);
   
-  a = new QAction(QIcon(delete_xpm), tr("Remove Indicator"), this);
+  a = new QAction(QIcon(QPixmap(delete_xpm), tr("Remove Indicator"), this));
   a->setToolTip(tr("Remove Indicator"));
   a->setStatusTip(tr("Remove Indicator"));
   connect(a, SIGNAL(triggered(bool)), this, SLOT(removeIndicator()));
   _actions.insert(_INDICATOR_REMOVE, a);
   
-  a = new QAction(QIcon(save_xpm), tr("Save Results As Group"), this);
+  a = new QAction(QIcon(QPixmap(save_xpm), tr("Save Results As Group"), this));
   a->setToolTip(tr("Save Results As Group"));
   a->setStatusTip(tr("Save Results As Group"));
   connect(a, SIGNAL(triggered(bool)), this, SLOT(saveResults()));

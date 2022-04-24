@@ -22,8 +22,6 @@
 #ifndef PLUGIN_T3_OBJECT_HPP
 #define PLUGIN_T3_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "T3Dialog.h"
 #include "Bars.h"

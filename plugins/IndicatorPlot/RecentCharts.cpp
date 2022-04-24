@@ -44,7 +44,7 @@ RecentCharts::createGUI ()
   setPopupMode(QToolButton::InstantPopup);
   setToolTip(tr("Recent Charts"));
   setStatusTip(tr("Recent Charts"));
-  setIcon(QIcon(recent_chart_xpm));
+  setIcon(QIcon(QPixmap(recent_chart_xpm)));
 
   _menu = new QMenu(this);
   _menu->setTitle(tr("Recent Charts"));
@@ -60,7 +60,7 @@ RecentCharts::createGUI ()
     _symbols.insert(tl.at(pos), tl.at(pos));
 
     QAction *a = _menu->addAction(tl.at(pos));
-    a->setCheckable(FALSE);
+    a->setCheckable(false);
     _actions.append(a);
   }
 }
@@ -82,7 +82,7 @@ RecentCharts::addSymbol (QString d)
   _symbols.insert(d, d);
 
   QAction *a = new QAction(d, _menu);
-  a->setCheckable(FALSE);
+  a->setCheckable(false);
   _actions.prepend(a);
 
   QAction *b = _actions.first();

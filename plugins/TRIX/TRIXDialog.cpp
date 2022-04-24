@@ -19,7 +19,6 @@
  *  USA.
  */
 
-#include <QFormLayout>
 #include "TRIXDialog.h"
 #include "Util.h"
 

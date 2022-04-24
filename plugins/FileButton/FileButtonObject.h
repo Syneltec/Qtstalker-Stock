@@ -22,8 +22,6 @@
 #ifndef PLUGIN_FILE_BUTTON_OBJECT_HPP
 #define PLUGIN_FILE_BUTTON_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "FileButtonWidget.h"
 

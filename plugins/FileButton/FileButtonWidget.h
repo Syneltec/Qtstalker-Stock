@@ -22,8 +22,8 @@
 #ifndef PLUGIN_FILE_BUTTON_WIDGET_HPP
 #define PLUGIN_FILE_BUTTON_WIDGET_HPP
 
-#include <QPushButton>
-#include <QStringList>
+#include <QtGui>
+#include <QtWidgets>
 
 class FileButtonWidget : public QPushButton
 {

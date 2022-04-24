@@ -23,6 +23,7 @@
 #define PLUGIN_INDICATOR_PLOT_TAB_WIDGET_HPP
 
 #include <QtGui>
+#include <QtWidgets>
 
 class TabWidget : public QTabWidget
 {

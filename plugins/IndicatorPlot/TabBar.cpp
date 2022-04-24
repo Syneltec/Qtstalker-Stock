@@ -32,11 +32,11 @@ TabBar::TabBar (QWidget *parent) : QTabBar(parent)
   setStyleSheet("QTabBar::tab { height: 20px; }");
 
   _menu = new QMenu(this);
-  _menu->addAction(QIcon(insert_xpm), tr("Edit Indicator"), this, SLOT(edit()), 0);
+  _menu->addAction(QIcon(QPixmap(insert_xpm)), tr("Edit Indicator"), this, SLOT(edit()), 0);
   _menu->addSeparator();
-  _menu->addAction(QIcon(insert_xpm), tr("Move Indicator"), this, SLOT(moveRow()), 0);
+  _menu->addAction(QIcon(QPixmap(insert_xpm)), tr("Move Indicator"), this, SLOT(moveRow()), 0);
   _menu->addSeparator();
-  _menu->addAction(QIcon(delete_xpm), tr("Delete Indicator"), this, SLOT(remove()), 0);
+  _menu->addAction(QIcon(QPixmap(delete_xpm)), tr("Delete Indicator"), this, SLOT(remove()), 0);
 
   setContextMenuPolicy(Qt::CustomContextMenu);
   connect(this, SIGNAL(customContextMenuRequested(const QPoint &)), this, SLOT(contextMenu()));
@@ -134,7 +134,7 @@ TabBar::moveRow ()
   QStringList wt;
   wt << QString("OTA") << "-" << tr("Move Indicator") << "(" << name << ")";
 
-  bool ok = FALSE;
+  bool ok = false;
   int row = QInputDialog::getInt(this,
                                  wt.join(" "),
                                  tr("New Row"),

@@ -360,8 +360,8 @@ MarkerSellObject::mousePress (ObjectCommand *oc)
   if (event->button() == Qt::RightButton && _selected == TRUE)
   {
     QMenu menu;
-    QAction *edit = menu.addAction(QIcon(edit_xpm), tr("Edit"));
-    menu.addAction(QIcon(delete_xpm), tr("Delete"));
+    QAction *edit = menu.addAction(QIcon(QPixmap(edit_xpm)), tr("Edit"));
+    menu.addAction(QIcon(QPixmap(delete_xpm)), tr("Delete"));
     QAction *selected = menu.exec(QCursor::pos());
     
     if (! selected)
@@ -482,7 +482,7 @@ MarkerSellObject::load ()
 int
 MarkerSellObject::icon (ObjectCommand *oc)
 {
-  oc->setValue(QString("icon"), QIcon(sellarrow_xpm));
+  oc->setValue(QString("icon"), QIcon(QPixmap(sellarrow_xpm)));
   return 1;
 }
 

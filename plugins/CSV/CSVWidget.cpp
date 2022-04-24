@@ -30,7 +30,6 @@
 #include "../../pics/quit.xpm"
 
 #include <QtDebug>
-#include <QSettings>
 
 
 CSVWidget::CSVWidget (QMainWindow *mw, QString profile)
@@ -69,26 +68,26 @@ CSVWidget::~CSVWidget ()
 void
 CSVWidget::createActions ()
 {
-  QAction *a = new QAction(QIcon(insert_xpm), tr("Import CSV Quotes"), this);
+  QAction *a = new QAction(QPixmap(insert_xpm), tr("Import CSV Quotes"), this);
   a->setToolTip(tr("Import CSV Quotes"));
   a->setStatusTip(tr("Import CSV Quotes"));
   connect(a, SIGNAL(triggered()), this, SLOT(importThread()));
   _actions.insert(_IMPORT, a);
   
-  a = new QAction(QIcon(stop_xpm), tr("Stop Import"), this);
+  a = new QAction(QPixmap(stop_xpm), tr("Stop Import"), this);
   a->setToolTip(tr("Stop Import"));
   a->setStatusTip(tr("Stop Import"));
   a->setEnabled(FALSE);
   connect(a, SIGNAL(triggered()), this, SIGNAL(signalStop()));
   _actions.insert(_STOP, a);
   
-  a = new QAction(QIcon(help_xpm), tr("Help"), this);
+  a = new QAction(QPixmap(help_xpm), tr("Help"), this);
   a->setToolTip(tr("Help"));
   a->setStatusTip(tr("Help"));
   connect(a, SIGNAL(triggered()), this, SLOT(help()));
   _actions.insert(_HELP, a);
   
-  a = new QAction(QIcon(quit_xpm), tr("Quit"), this);
+  a = new QAction(QPixmap(quit_xpm), tr("Quit"), this);
   a->setToolTip(tr("Quit"));
   a->setStatusTip(tr("Quit"));
   connect(a, SIGNAL(triggered()), qApp, SLOT(quit()));

@@ -22,8 +22,6 @@
 #ifndef PLUGIN_WILLR_OBJECT_HPP
 #define PLUGIN_WILLR_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "WILLRDialog.h"
 #include "Bars.h"

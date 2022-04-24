@@ -79,34 +79,34 @@ ChartPage::~ChartPage ()
 void
 ChartPage::createActions ()
 {
-  QAction *action  = new QAction(QIcon(asterisk_xpm), tr("Show &All Symbols"), this);
+  QAction *action  = new QAction(QIcon(QPixmap(asterisk_xpm)), tr("Show &All Symbols"), this);
   action->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Asterisk));
   action->setToolTip(tr("Show All Symbols"));
   action->setStatusTip(tr("Show All Symbols"));
   connect(action, SIGNAL(triggered(bool)), this, SLOT(allButtonPressed()));
   _actions.insert(_SHOW_ALL, action);
 
-  action  = new QAction(QIcon(search_xpm), tr("Symbol &Search") + "...", this);
+  action  = new QAction(QIcon(QPixmap(search_xpm)), tr("Symbol &Search") + "...", this);
   action->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_F));
   action->setToolTip(tr("Symbol Search") + "...");
   action->setStatusTip(tr("Symbol Search") + "...");
   connect(action, SIGNAL(triggered(bool)), this, SLOT(symbolSearch()));
   _actions.insert(_SEARCH, action);
 
-  action  = new QAction(QIcon(add_xpm), tr("Add To &Group") + "...", this);
+  action  = new QAction(QIcon(QPixmap(add_xpm)), tr("Add To &Group") + "...", this);
   action->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_A));
   action->setToolTip(tr("Add symbol to group") + "...");
   action->setStatusTip(tr("Add symbol to group") + "...");
   connect(action, SIGNAL(triggered(bool)), this, SLOT(addToGroup()));
   _actions.insert(_ADD_GROUP, action);
 
-  action  = new QAction(QIcon(select_all_xpm), tr("Select All"), this);
+  action  = new QAction(QIcon(QPixmap(select_all_xpm)), tr("Select All"), this);
   action->setToolTip(tr("Select All"));
   action->setStatusTip(tr("Select All"));
   connect(action, SIGNAL(triggered(bool)), _nav, SLOT(selectAll()));
   _actions.insert(_SELECT_ALL, action);
 
-  action  = new QAction(QIcon(unselect_all_xpm), tr("Unselect All"), this);
+  action  = new QAction(QIcon(QPixmap(unselect_all_xpm)), tr("Unselect All"), this);
   action->setToolTip(tr("Unselect All"));
   action->setStatusTip(tr("Unselect All"));
   connect(action, SIGNAL(triggered(bool)), _nav, SLOT(clearSelection()));

@@ -22,8 +22,6 @@
 #ifndef PLUGIN_VALUES_DIALOG_OBJECT_HPP
 #define PLUGIN_VALUES_DIALOG_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 
 

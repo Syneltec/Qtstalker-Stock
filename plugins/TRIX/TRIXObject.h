@@ -22,8 +22,6 @@
 #ifndef PLUGIN_TRIX_OBJECT_HPP
 #define PLUGIN_TRIX_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "TRIXDialog.h"
 #include "Bars.h"

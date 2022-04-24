@@ -23,7 +23,7 @@
 #define PLUGIN_VALUES_DIALOG_DIALOG_HPP
 
 #include <QtGui>
-#include <QTreeWidget>
+#include <QtWidgets>
 
 #include "Dialog.h"
 #include "Data.h"

@@ -112,10 +112,10 @@ IndicatorAddStepDialog::modified ()
   switch (count)
   {
     case 2:
-      _okButton->setEnabled(TRUE);
+      _okButton->setEnabled(true);
       break;
     default:
-      _okButton->setEnabled(FALSE);
+      _okButton->setEnabled(false);
       break;
   }
 }

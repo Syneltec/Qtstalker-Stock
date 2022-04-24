@@ -23,8 +23,7 @@
 #define PLUGIN_BBANDS_DIALOG_HPP
 
 #include <QtGui>
-#include <QComboBox>
-#include <QSpinBox>
+#include <QtWidgets>
 
 #include "Dialog.h"
 #include "Object.h"

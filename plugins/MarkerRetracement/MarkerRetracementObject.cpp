@@ -570,8 +570,8 @@ MarkerRetracementObject::mousePress (ObjectCommand *oc)
   if (event->button() == Qt::RightButton && _selected == TRUE)
   {
     QMenu menu;
-    QAction *edit = menu.addAction(QIcon(edit_xpm), tr("Edit"));
-    menu.addAction(QIcon(delete_xpm), tr("Delete"));
+    QAction *edit = menu.addAction(QIcon(QPixmap(edit_xpm), tr("Edit")));
+    menu.addAction(QIcon(QPixmap(delete_xpm), tr("Delete")));
     QAction *selected = menu.exec(QCursor::pos());
     
     if (! selected)

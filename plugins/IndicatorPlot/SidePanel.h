@@ -23,6 +23,7 @@
 #define PLUGIN_INDICATOR_SIDE_PANEL_HPP
 
 #include <QtGui>
+#include <QtWidgets>
 
 #include "Object.h"
 #include "Data.h"

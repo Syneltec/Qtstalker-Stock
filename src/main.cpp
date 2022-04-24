@@ -40,6 +40,7 @@ int main(int argc, char *argv[])
   QString plugin;
   QString profile;
   int loop;
+
   for (loop = 1; loop <= argc; loop++)
   {
     QString s = argv[loop];

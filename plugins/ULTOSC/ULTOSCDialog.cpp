@@ -19,7 +19,6 @@
  *  USA.
  */
 
-#include <QFormLayout>
 #include "ULTOSCDialog.h"
 #include "Util.h"
 

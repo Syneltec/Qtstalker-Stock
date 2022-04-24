@@ -22,8 +22,6 @@
 #ifndef PLUGIN_ATR_OBJECT_HPP
 #define PLUGIN_ATR_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "ATRDialog.h"
 #include "Bars.h"

@@ -19,10 +19,8 @@
  *  USA.
  */
 
-#include <QFormLayout>
-#include <QSettings>
-#include <QAction>
 #include <QtDebug>
+#include <QSettings>
 
 #include "YahooHistoryWidget.h"
 #include "YahooHistoryObject.h"
@@ -74,32 +72,26 @@ YahooHistoryWidget::~YahooHistoryWidget ()
 void
 YahooHistoryWidget::createActions ()
 {
-  QPixmap pix;
-
-  pix = QPixmap(download_xpm);
-  QAction *a = new QAction(pix, tr("Download Quotes"), this);
+  QAction *a = new QAction(QPixmap(download_xpm), tr("Download Quotes"), this);
   a->setToolTip(tr("Download Quotes"));
   a->setStatusTip(tr("Download Quotes"));
   connect(a, SIGNAL(triggered()), this, SLOT(downloadHistory()));
   _actions.insert(_DOWNLOAD, a);
   
-  pix = QPixmap(stop_xpm);
-  a = new QAction(pix, tr("Stop Download"), this);
+  a = new QAction(QPixmap(stop_xpm), tr("Stop Download"), this);
   a->setToolTip(tr("Stop Download"));
   a->setStatusTip(tr("Stop Download"));
   a->setEnabled(FALSE);
   connect(a, SIGNAL(triggered()), this, SIGNAL(signalStop()));
   _actions.insert(_STOP, a);
   
-  pix = QPixmap(help_xpm);
-  a = new QAction(pix, tr("Help"), this);
+  a = new QAction(QPixmap(help_xpm), tr("Help"), this);
   a->setToolTip(tr("Help"));
   a->setStatusTip(tr("Help"));
   connect(a, SIGNAL(triggered()), this, SLOT(help()));
   _actions.insert(_HELP, a);
   
-  pix = QPixmap(quit_xpm);
-  a = new QAction(pix, tr("Quit"), this);
+  a = new QAction(QPixmap(quit_xpm), tr("Quit"), this);
   a->setToolTip(tr("Quit"));
   a->setStatusTip(tr("Quit"));
   connect(a, SIGNAL(triggered()), qApp, SLOT(quit()));

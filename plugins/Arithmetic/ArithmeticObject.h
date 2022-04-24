@@ -22,8 +22,6 @@
 #ifndef PLUGIN_ARITHMETIC_OBJECT_HPP
 #define PLUGIN_ARITHMETIC_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "ArithmeticDialog.h"
 #include "Bars.h"

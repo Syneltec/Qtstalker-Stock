@@ -23,11 +23,7 @@
 #define PLUGIN_YAHOO_HISTORY_WIDGET_H
 
 #include <QtGui>
-#include <QWidget>
-#include <QMainWindow>
-#include <QTextEdit>
-#include <QDateTimeEdit>
-#include <QProgressBar>
+#include <QtWidgets>
 
 #include "Object.h"
 

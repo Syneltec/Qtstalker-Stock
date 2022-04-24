@@ -657,7 +657,7 @@ PlotWidgetArea::createMenu ()
   QAction *a = _menu->addAction(tr("&Delete All Markers"));
   a->setToolTip(tr("Delete All Markers"));
   a->setStatusTip(tr("Delete All Markers"));
-  a->setIcon(QIcon(delete_xpm));
+  a->setIcon(QIcon(QPixmap(delete_xpm)));
   connect(a, SIGNAL(triggered(bool)), this, SLOT(deleteAllMarkers()));
 
   _menu->addSeparator();
@@ -666,7 +666,7 @@ PlotWidgetArea::createMenu ()
   a = _menu->addAction(tr("Show &Values"));
   a->setToolTip(tr("Show Values"));
   a->setStatusTip(tr("Show Values"));
-  a->setIcon(QIcon(datawindow_xpm));
+  a->setIcon(QIcon(QPixmap(datawindow_xpm)));
   connect(a, SIGNAL(triggered(bool)), this, SIGNAL(signalDataWindow()));
   
   _menu->addSeparator();
@@ -677,7 +677,7 @@ PlotWidgetArea::createMenu ()
   _actionXGrid->setStatusTip(tr("Toggle X Axis Grid"));
   _actionXGrid->setCheckable(TRUE);
   _actionXGrid->setChecked(TRUE);
-  _actionXGrid->setIcon(QIcon(grid_xpm));
+  _actionXGrid->setIcon(QIcon(QPixmap(grid_xpm)));
   connect(_actionXGrid, SIGNAL(triggered(bool)), this, SLOT(xGridToggled(bool)));
   
   // y grid
@@ -686,7 +686,7 @@ PlotWidgetArea::createMenu ()
   _actionYGrid->setStatusTip(tr("Toggle Y Axis Grid"));
   _actionYGrid->setCheckable(TRUE);
   _actionYGrid->setChecked(TRUE);
-  _actionYGrid->setIcon(QIcon(grid_xpm));
+  _actionYGrid->setIcon(QIcon(QPixmap(grid_xpm)));
   connect(_actionYGrid, SIGNAL(triggered(bool)), this, SLOT(yGridToggled(bool)));
 
   _menu->addSeparator();
@@ -697,7 +697,7 @@ PlotWidgetArea::createMenu ()
   _actionInfo->setStatusTip(tr("Toggle Info"));
   _actionInfo->setCheckable(TRUE);
   _actionInfo->setChecked(TRUE);
-  _actionInfo->setIcon(QIcon(about_xpm));
+  _actionInfo->setIcon(QIcon(QPixmap(about_xpm)));
   connect(_actionInfo, SIGNAL(triggered(bool)), this, SLOT(infoToggled(bool)));
   
   // date
@@ -706,7 +706,7 @@ PlotWidgetArea::createMenu ()
   _actionDate->setStatusTip(tr("Toggle Date Axis"));
   _actionDate->setCheckable(TRUE);
   _actionDate->setChecked(TRUE);
-  _actionDate->setIcon(QIcon(date_xpm));
+  _actionDate->setIcon(QIcon(QPixmap(date_xpm)));
   connect(_actionDate, SIGNAL(triggered(bool)), this, SLOT(dateToggled(bool)));
 }
 

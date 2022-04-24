@@ -22,8 +22,6 @@
 #ifndef PLUGIN_BAR_LENGTH_BUTTON_OBJECT_HPP
 #define PLUGIN_BAR_LENGTH_BUTTON_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "BarLengthButtonWidget.h"
 

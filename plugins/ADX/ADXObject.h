@@ -22,8 +22,6 @@
 #ifndef PLUGIN_ADX_OBJECT_HPP
 #define PLUGIN_ADX_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "ADXDialog.h"
 #include "Bars.h"

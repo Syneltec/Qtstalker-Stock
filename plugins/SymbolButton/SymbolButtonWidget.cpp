@@ -34,7 +34,7 @@ SymbolButtonWidget::SymbolButtonWidget ()
   
   connect(this, SIGNAL(clicked()), this, SLOT(symbolDialog()));
   
-  setIcon(QIcon(chart_xpm));
+  setIcon(QIcon(QPixmap(chart_xpm)));
   
   updateButtonText();
 }

@@ -22,8 +22,6 @@
 #ifndef PLUGIN_INDICATOR_INPUT_OBJECT_HPP
 #define PLUGIN_INDICATOR_INPUT_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "IndicatorInputWidget.h"
 

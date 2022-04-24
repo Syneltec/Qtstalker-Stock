@@ -22,9 +22,6 @@
 #ifndef PLUGIN_COMPARE_VALUES_OBJECT_HPP
 #define PLUGIN_COMPARE_VALUES_OBJECT_HPP
 
-#include <QStringList>
-#include <QMap>
-
 #include "Object.h"
 #include "CompareValuesDialog.h"
 #include "Bars.h"

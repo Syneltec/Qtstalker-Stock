@@ -22,8 +22,6 @@
 #ifndef PLUGIN_CMO_OBJECT_HPP
 #define PLUGIN_CMO_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "CMODialog.h"
 #include "Bars.h"

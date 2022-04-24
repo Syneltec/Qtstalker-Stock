@@ -23,6 +23,7 @@
 #define PLUGIN_INDICATOR_PLOT_TAB_BAR_HPP
 
 #include <QtGui>
+#include <QtWidgets>
 
 class TabBar : public QTabBar
 {

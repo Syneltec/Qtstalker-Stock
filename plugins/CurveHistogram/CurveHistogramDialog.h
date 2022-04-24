@@ -23,6 +23,7 @@
 #define PLUGIN_CURVE_HISTOGRAM_DIALOG_HPP
 
 #include <QtGui>
+#include <QtWidgets>
 
 #include "Object.h"
 #include "Dialog.h"

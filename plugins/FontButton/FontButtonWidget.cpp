@@ -30,7 +30,7 @@ FontButtonWidget::FontButtonWidget (QWidget *w, QFont f) : QPushButton (w)
   setMaximumHeight(25);
   setFontButton();
   setText(tr("Font"));
-  _changed = FALSE;
+  _changed = false;
 }
 
 void FontButtonWidget::setFontButton ()
@@ -55,7 +55,7 @@ void FontButtonWidget::fontDialog2 (QFont font)
 {
   _font = font;
   setFontButton();
-  _changed = TRUE;
+  _changed = true;
   emit valueChanged();
 }
 

@@ -22,8 +22,6 @@
 #ifndef PLUGIN_CCI_OBJECT_HPP
 #define PLUGIN_CCI_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "CCIDialog.h"
 #include "Bars.h"

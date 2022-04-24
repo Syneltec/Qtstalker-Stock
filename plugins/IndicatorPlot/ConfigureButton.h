@@ -23,6 +23,7 @@
 #define CONFIGURE_BUTTON_HPP
 
 #include <QtGui>
+#include <QtWidgets>
 
 
 class ConfigureButton : public QToolButton

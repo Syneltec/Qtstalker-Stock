@@ -22,8 +22,6 @@
 #ifndef PLUGIN_BOP_OBJECT_HPP
 #define PLUGIN_BOP_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "BOPDialog.h"
 #include "Bars.h"

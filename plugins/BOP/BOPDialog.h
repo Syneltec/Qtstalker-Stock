@@ -23,6 +23,7 @@
 #define PLUGIN_BOP_DIALOG_HPP
 
 #include <QtGui>
+#include <QtWidgets>
 
 #include "Dialog.h"
 #include "Object.h"

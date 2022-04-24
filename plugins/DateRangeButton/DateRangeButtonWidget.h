@@ -23,7 +23,6 @@
 #define PLUGIN_DATE_RANGE_BUTTON_WIDGET_HPP
 
 
-#include <QtGui>
 #include "PopupWidget.h"
 
 class DateRangeButtonWidget : public QToolButton

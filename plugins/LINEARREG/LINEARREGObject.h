@@ -22,8 +22,6 @@
 #ifndef PLUGIN_LINEARREG_OBJECT_HPP
 #define PLUGIN_LINEARREG_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "LINEARREGDialog.h"
 #include "Bars.h"

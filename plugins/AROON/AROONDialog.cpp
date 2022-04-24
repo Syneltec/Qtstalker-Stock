@@ -19,7 +19,6 @@
  *  USA.
  */
 
-#include <QFormLayout>
 #include "AROONDialog.h"
 #include "Util.h"
 

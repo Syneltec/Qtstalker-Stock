@@ -22,9 +22,6 @@
 #ifndef PLUGIN_DATE_RANGE_BUTTON_OBJECT_HPP
 #define PLUGIN_DATE_RANGE_BUTTON_OBJECT_HPP
 
-#include <QStringList>
-
-#include "Object.h"
 #include "DateRangeButtonWidget.h"
 
 

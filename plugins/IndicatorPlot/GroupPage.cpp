@@ -48,28 +48,28 @@ GroupPage::~GroupPage ()
 void
 GroupPage::createActions ()
 {
-  QAction *action  = new QAction(QIcon(new_xpm), tr("&New Group") + "...", this);
+  QAction *action  = new QAction(QIcon(QPixmap(new_xpm)), tr("&New Group") + "...", this);
   action->setShortcut(QKeySequence(Qt::CTRL+Qt::Key_N));
   action->setToolTip(tr("Create a new group") + "...");
   action->setStatusTip(tr("Create a new group") + "...");
   connect(action, SIGNAL(triggered(bool)), this, SLOT(newGroup()));
   _actions.insert(_GROUP_NEW, action);
 
-  action  = new QAction(QIcon(edit_xpm), tr("&Edit Group") + "...", this);
+  action  = new QAction(QIcon(QPixmap(edit_xpm)), tr("&Edit Group") + "...", this);
   action->setShortcut(QKeySequence(Qt::CTRL+Qt::Key_E));
   action->setToolTip(tr("Edit group") + "...");
   action->setStatusTip(tr("Edit group") + "...");
   connect(action, SIGNAL(triggered(bool)), this, SLOT(editGroup()));
   _actions.insert(_GROUP_EDIT, action);
 
-  action  = new QAction(QIcon(delete_xpm), tr("&Delete Group") + "...", this);
+  action  = new QAction(QIcon(QPixmap(delete_xpm)), tr("&Delete Group") + "...", this);
   action->setShortcut(QKeySequence(Qt::CTRL+Qt::Key_D));
   action->setToolTip(tr("Delete group") + "...");
   action->setStatusTip(tr("Delete group") + "...");
   connect(action, SIGNAL(triggered(bool)), this, SLOT(deleteGroup()));
   _actions.insert(_GROUP_DELETE, action);
 
-  action  = new QAction(QIcon(refresh_xpm), tr("&Refresh List"), this);
+  action  = new QAction(QIcon(QPixmap(refresh_xpm)), tr("&Refresh List"), this);
   action->setShortcut(QKeySequence(Qt::CTRL+Qt::Key_R));
   action->setToolTip(tr("Refresh List"));
   action->setStatusTip(tr("Refresh List"));

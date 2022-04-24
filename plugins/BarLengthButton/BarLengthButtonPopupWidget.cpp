@@ -19,7 +19,6 @@
  *  USA.
  */
 
-#include <QFormLayout>
 #include "BarLengthButtonPopupWidget.h"
 
 #include <QtDebug>

@@ -23,6 +23,7 @@
 #define PLUGIN_INDICATOR_DIALOG_HPP
 
 #include <QtGui>
+#include <QtWidgets>
 #include <QSettings>
 
 #include "Object.h"

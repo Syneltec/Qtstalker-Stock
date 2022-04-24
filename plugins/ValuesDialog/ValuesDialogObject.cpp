@@ -87,22 +87,23 @@ ValuesDialogObject::dialog (ObjectCommand *oc)
 
     header += labels;
 
-    QMapIterator<int, Data *> mit(toc.map());
-    while (mit.hasNext())
-    {
-      mit.next();
-      Data *d = mit.value();
-      
-      Data *nd = data.value(mit.key());
-      if (! nd)
-      {
-        nd = new Data;
-        data.insert(mit.key(), nd);
-      }
-
-      for (int pos = 0; pos < keys.size(); pos++)
-        nd->insert(labels.at(pos), d->value(keys.at(pos)));
-    }
+//CCL
+//    QMapIterator<int, Data *> mit(toc.map());
+//    while (mit.hasNext())
+//    {
+//      mit.next();
+//      Data *d = mit.value();
+//
+//      Data *nd = data.value(mit.key());
+//      if (! nd)
+//      {
+//        nd = new Data;
+//        data.insert(mit.key(), nd);
+//      }
+//
+//      for (int pos = 0; pos < keys.size(); pos++)
+//        nd->insert(labels.at(pos), d->value(keys.at(pos)));
+//    }
   }
 
   header.sort();

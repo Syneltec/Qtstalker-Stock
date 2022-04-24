@@ -22,8 +22,6 @@
 #ifndef PLUGIN_ULTOSC_OBJECT_HPP
 #define PLUGIN_ULTOSC_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "ULTOSCDialog.h"
 #include "Bars.h"

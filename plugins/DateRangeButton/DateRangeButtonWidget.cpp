@@ -61,11 +61,11 @@ DateRangeButtonWidget::setSettings (QStringList l, QString range, QDateTime sd, 
   if (cus)
   {
     setText(QString());
-    setIcon(QIcon(date_xpm));
+    setIcon(QIcon(QPixmap(date_xpm)));
   }
   else
   {
-    setIcon(QIcon());
+    setIcon(QIcon(QPixmap()));
     setText(range);
   }
 }
@@ -115,11 +115,11 @@ DateRangeButtonWidget::popupChanged ()
   if (_popup->custom())
   {
     setText(QString());
-    setIcon(QIcon(date_xpm));
+    setIcon(QIcon(QPixmap(date_xpm)));
   }
   else
   {
-    setIcon(QIcon());
+    setIcon(QIcon(QPixmap()));
     setText(_popup->range());
   }
   

@@ -22,8 +22,6 @@
 #ifndef PLUGIN_VAR_OBJECT_HPP
 #define PLUGIN_VAR_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "VARDialog.h"
 

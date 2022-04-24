@@ -23,6 +23,8 @@
 #define PLUGIN_DATE_RANGE_BUTTON_POPUP_WIDGET_HPP
 
 #include <QtGui>
+#include <QtWidgets>
+#include "Object.h"
 
 class PopupWidget : public QMenu
 {

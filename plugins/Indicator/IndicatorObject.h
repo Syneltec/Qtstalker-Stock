@@ -22,8 +22,6 @@
 #ifndef PLUGIN_INDICATOR_OBJECT_HPP
 #define PLUGIN_INDICATOR_OBJECT_HPP
 
-//#include <QHash>
-
 #include "Object.h"
 #include "IndicatorDialog.h"
 

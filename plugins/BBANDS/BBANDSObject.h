@@ -22,8 +22,6 @@
 #ifndef PLUGIN_BBANDS_OBJECT_HPP
 #define PLUGIN_BBANDS_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "BBANDSDialog.h"
 #include "Bars.h"

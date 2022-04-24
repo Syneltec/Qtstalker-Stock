@@ -23,6 +23,7 @@
 #define PLUGIN_HPP
 
 #include <QtGui>
+#include <QtWidgets>
 
 #include "PluginCommand.h"
 

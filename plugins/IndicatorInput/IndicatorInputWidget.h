@@ -26,6 +26,7 @@
 #define PLUGIN_INDICATOR_INPUT_WIDGET_HPP
 
 #include <QtGui>
+#include <QtWidgets>
 
 
 class IndicatorInputWidget : public QWidget

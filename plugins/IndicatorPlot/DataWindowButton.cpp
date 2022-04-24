@@ -26,7 +26,7 @@
 
 DataWindowButton::DataWindowButton ()
 {
-  setIcon(QIcon(datawindow_xpm));
+  setIcon(QIcon(QPixmap(datawindow_xpm)));
   setStatusTip(tr("Display Data Window"));
   setToolTip(tr("Display Data Window"));
   setShortcut(QKeySequence(Qt::CTRL + Qt::Key_W));

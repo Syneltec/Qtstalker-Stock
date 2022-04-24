@@ -27,9 +27,8 @@
 #ifndef PLUGIN_FONT_BUTTON_WIDGET_HPP
 #define PLUGIN_FONT_BUTTON_WIDGET_HPP
 
-#include <QWidget>
-#include <QPushButton>
-#include <QFont>
+#include <QtGui>
+#include <QtWidgets>
 
 class FontButtonWidget : public QPushButton
 {

@@ -22,6 +22,8 @@
 #ifndef PLUGIN_DATABASE_OBJECT_HPP
 #define PLUGIN_DATABASE_OBJECT_HPP
 
+#include <QtGui>
+#include <QtWidgets>
 #include <QtSql>
 #include <QStringList>
 

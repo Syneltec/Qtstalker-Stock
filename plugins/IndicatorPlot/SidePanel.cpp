@@ -70,13 +70,13 @@ SidePanel::createGUI ()
   
   // chart tab
   _chartPanel = new ChartPage(this, _settingsPath, _profile);
-  _tabs->addTab(_chartPanel, QIcon(chart_xpm), QString());
+  _tabs->addTab(_chartPanel, QPixmap(chart_xpm), QString());
   _tabs->setTabToolTip(0, tr("Charts"));
   connect(_chartPanel, SIGNAL(signalSymbol(QString)), this, SLOT(symbolChanged(QString)));
 
   // group tab
   _groupPanel = new GroupPage(this, _settingsPath);
-  _tabs->addTab(_groupPanel, QIcon(group_xpm), QString());
+  _tabs->addTab(_groupPanel, QPixmap(group_xpm), QString());
   _tabs->setTabToolTip(1, tr("Groups"));
   connect(_groupPanel, SIGNAL(signalSymbol(QString)), this, SLOT(symbolChanged(QString)));
   connect(_chartPanel, SIGNAL(signalGroupAdd(QString)), _groupPanel, SLOT(loadGroups()));

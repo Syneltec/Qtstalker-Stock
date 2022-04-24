@@ -71,32 +71,32 @@ IndicatorDialog::clear ()
 void
 IndicatorDialog::createActions ()
 {
-  QAction *a = new QAction(QIcon(delete_xpm), tr("&Remove Step"), this);
+  QAction *a = new QAction(QPixmap(delete_xpm), tr("&Remove Step"), this);
   a->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_R));
   a->setToolTip(tr("Remove Step"));
   a->setStatusTip(tr("Remove Step"));
   connect(a, SIGNAL(triggered(bool)), this, SLOT(removeStep()));
   _actions.insert(_STEP_REMOVE, a);
   
-  a = new QAction(QIcon(indicator_xpm), tr("Insert Indicator"), this);
+  a = new QAction(QPixmap(indicator_xpm), tr("Insert Indicator"), this);
   a->setToolTip(tr("Insert Indicator"));
   a->setStatusTip(tr("Insert Indicator"));
   connect(a, SIGNAL(triggered(bool)), this, SLOT(insertIndicator()));
   _actions.insert(_INDICATOR_INSERT, a);
   
-  a = new QAction(QIcon(chart_xpm), tr("Insert Curve"), this);
+  a = new QAction(QPixmap(chart_xpm), tr("Insert Curve"), this);
   a->setToolTip(tr("Insert Curve"));
   a->setStatusTip(tr("Insert Curve"));
   connect(a, SIGNAL(triggered(bool)), this, SLOT(insertCurve()));
   _actions.insert(_CURVE_INSERT, a);
   
-  a = new QAction(QIcon(trend_xpm), tr("Insert Marker"), this);
+  a = new QAction(QPixmap(trend_xpm), tr("Insert Marker"), this);
   a->setToolTip(tr("Insert Marker"));
   a->setStatusTip(tr("Insert Marker"));
   connect(a, SIGNAL(triggered(bool)), this, SLOT(insertMarker()));
   _actions.insert(_MARKER_INSERT, a);
   
-  a = new QAction(QIcon(chart_xpm), tr("Insert Plot"), this);
+  a = new QAction(QPixmap(chart_xpm), tr("Insert Plot"), this);
   a->setToolTip(tr("Insert Plot"));
   a->setStatusTip(tr("Insert Plot"));
   connect(a, SIGNAL(triggered(bool)), this, SLOT(insertPlot()));

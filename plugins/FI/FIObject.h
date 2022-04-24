@@ -22,8 +22,6 @@
 #ifndef PLUGIN_FI_OBJECT_HPP
 #define PLUGIN_FI_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "FIDialog.h"
 #include "Bars.h"

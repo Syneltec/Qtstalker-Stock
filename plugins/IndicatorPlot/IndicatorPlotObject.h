@@ -22,8 +22,6 @@
 #ifndef PLUGIN_INDICATOR_PLOT_OBJECT_HPP
 #define PLUGIN_INDICATOR_PLOT_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 
 class IndicatorPlotObject : public Object

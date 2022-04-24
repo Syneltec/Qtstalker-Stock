@@ -41,7 +41,7 @@ ConfigureButton::ConfigureButton ()
   createMenu();
 
   setPopupMode(QToolButton::InstantPopup);
-  setIcon(QIcon(configure_xpm));
+  setIcon(QIcon(QPixmap(configure_xpm)));
   setText(tr("Configure / Options"));
   setStatusTip(tr("Configure and options"));
   setToolTip(tr("Configure and options"));
@@ -61,7 +61,7 @@ ConfigureButton::createMenu ()
   // new global indicator
   QAction *a = _menu->addAction(tr("&New Global Indicator") + "...");
   a->setShortcut(QKeySequence(QKeySequence::New));
-  a->setIcon(QIcon(new_xpm));
+  a->setIcon(QIcon(QPixmap(new_xpm)));
   a->setToolTip(tr("New Global Indicator") + "...");
   a->setStatusTip(tr("New Global Indicator") + "...");
   connect(a, SIGNAL(triggered(bool)), this, SLOT(newIndicator()));
@@ -69,7 +69,7 @@ ConfigureButton::createMenu ()
   // edit global indicator
   a = _menu->addAction(tr("&Edit Global Indicator") + "...");
   a->setShortcut(QKeySequence(QKeySequence::New));
-  a->setIcon(QIcon(edit_xpm));
+  a->setIcon(QIcon(QPixmap(edit_xpm)));
   a->setToolTip(tr("Edit Global Indicator") + "...");
   a->setStatusTip(tr("Edit Global Indicator") + "...");
   connect(a, SIGNAL(triggered(bool)), this, SLOT(editIndicator()));
@@ -77,7 +77,7 @@ ConfigureButton::createMenu ()
   // add indicator
   a = _menu->addAction(tr("&Add Indicator") + "...");
   a->setShortcut(QKeySequence(QKeySequence::New));
-  a->setIcon(QIcon(add_xpm));
+  a->setIcon(QIcon(QPixmap(add_xpm)));
   a->setToolTip(tr("Add Indicator") + "...");
   a->setStatusTip(tr("Add Indicator") + "...");
   connect(a, SIGNAL(triggered(bool)), this, SLOT(addIndicator()));
@@ -124,7 +124,7 @@ ConfigureButton::createMenu ()
   a = _menu->addAction(tr("&Quit"));
   a->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
   a->setCheckable(FALSE);
-  a->setIcon(QIcon(quit_xpm));
+  a->setIcon(QIcon(QPixmap(quit_xpm)));
   a->setStatusTip(tr("Quit QtStalker"));
   a->setToolTip(tr("Quit QtStalker"));
   connect(a, SIGNAL(triggered(bool)), qApp, SLOT(quit()));

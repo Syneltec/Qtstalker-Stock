@@ -22,13 +22,16 @@
 #ifndef PLUGIN_INDICATOR_CHART_PAGE_HPP
 #define PLUGIN_INDICATOR_CHART_PAGE_HPP
 
-#include <QStringList>
-#include <QWidget>
-#include <QMenu>
-#include <QPoint>
-#include <QHash>
-#include <QAction>
-#include <QListWidget>
+#include <QtGui>
+#include <QtWidgets>
+
+//#include <QStringList>
+//#include <QWidget>
+//#include <QMenu>
+//#include <QPoint>
+//#include <QHash>
+//#include <QAction>
+//#include <QListWidget>
 
 #include "Object.h"
 

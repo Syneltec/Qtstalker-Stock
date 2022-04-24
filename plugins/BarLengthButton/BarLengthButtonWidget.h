@@ -22,9 +22,6 @@
 #ifndef PLUGIN_BAR_LENGTH_BUTTON_WIDGET_HPP
 #define PLUGIN_BAR_LENGTH_BUTTON_WIDGET_HPP
 
-
-#include <QtGui>
-#include <QToolButton>
 #include "BarLengthButtonPopupWidget.h"
 
 class BarLengthButtonWidget : public QToolButton

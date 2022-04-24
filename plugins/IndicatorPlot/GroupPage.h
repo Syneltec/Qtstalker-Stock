@@ -23,6 +23,7 @@
 #define PLUGIN_INDICATOR_GROUP_PAGE_HPP
 
 #include <QtGui>
+#include <QtWidgets>
 
 #include "Object.h"
 
