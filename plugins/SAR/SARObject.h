@@ -22,8 +22,6 @@
 #ifndef PLUGIN_SAR_OBJECT_HPP
 #define PLUGIN_SAR_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "SARDialog.h"
 #include "Bars.h"

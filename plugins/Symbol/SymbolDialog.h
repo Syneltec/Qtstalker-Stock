@@ -23,8 +23,10 @@
 #define PLUGIN_SYMBOL_DIALOG_HPP
 
 #include <QtGui>
+#include <QtWidgets>
 
 #include "Dialog.h"
+#include "Object.h"
 
 class SymbolDialog : public Dialog
 {

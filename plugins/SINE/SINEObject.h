@@ -22,8 +22,6 @@
 #ifndef PLUGIN_SINE_OBJECT_HPP
 #define PLUGIN_SINE_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "SINEDialog.h"
 #include "Bars.h"

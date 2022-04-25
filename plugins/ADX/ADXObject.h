@@ -24,7 +24,6 @@
 
 #include "Object.h"
 #include "ADXDialog.h"
-#include "Bars.h"
 
 class ADXObject : public Object
 {

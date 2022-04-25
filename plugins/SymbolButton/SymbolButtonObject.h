@@ -22,8 +22,6 @@
 #ifndef PLUGIN_SYMBOL_BUTTON_OBJECT_HPP
 #define PLUGIN_SYMBOL_BUTTON_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "SymbolButtonWidget.h"
 

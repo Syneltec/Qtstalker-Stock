@@ -22,8 +22,6 @@
 #ifndef PLUGIN_STOCHF_OBJECT_HPP
 #define PLUGIN_STOCHF_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "STOCHFDialog.h"
 #include "Bars.h"

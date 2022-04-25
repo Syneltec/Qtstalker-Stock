@@ -22,12 +22,7 @@
 #ifndef PLUGIN_SYMBOL_OBJECT_HPP
 #define PLUGIN_SYMBOL_OBJECT_HPP
 
-#include <QStringList>
-#include <QDateTime>
-#include <QMap>
-
 #include "Object.h"
-#include "Data.h"
 #include "SymbolDialog.h"
 #include "Bars.h"
 

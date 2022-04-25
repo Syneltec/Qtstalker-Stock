@@ -22,8 +22,6 @@
 #ifndef PLUGIN_SZ_OBJECT_HPP
 #define PLUGIN_SZ_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "SZDialog.h"
 #include "Bars.h"

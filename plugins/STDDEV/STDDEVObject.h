@@ -22,8 +22,6 @@
 #ifndef PLUGIN_STDDEV_OBJECT_HPP
 #define PLUGIN_STDDEV_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "STDDEVDialog.h"
 #include "Bars.h"

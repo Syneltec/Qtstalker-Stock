@@ -25,7 +25,7 @@
 #ifndef PLUGIN_SCRIPT_TYPE_HPP
 #define PLUGIN_SCRIPT_TYPE_HPP
 
-#include <QStringList>
+#include <QtWidgets>
 
 class ScriptType
 {

@@ -22,15 +22,9 @@
 #ifndef PLUGIN_SCRIPT_DIALOG_HPP
 #define PLUGIN_SCRIPT_DIALOG_HPP
 
-#include <QDialog>
-#include <QPushButton>
-#include <QDialogButtonBox>
-#include <QStringList>
-#include <QTabWidget>
-#include <QComboBox>
-#include <QLineEdit>
+#include <QtGui>
+#include <QtWidgets>
 
-#include "Entity.h"
 #include "FileButton.h"
 
 class ScriptDialog : public QDialog

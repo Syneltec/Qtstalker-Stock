@@ -22,11 +22,8 @@
 #ifndef PLUGIN_STOCHS_OBJECT_HPP
 #define PLUGIN_STOCHS_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 #include "STOCHSDialog.h"
-#include "Bars.h"
 
 class STOCHSObject : public Object
 {

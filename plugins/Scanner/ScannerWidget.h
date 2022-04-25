@@ -23,6 +23,7 @@
 #define PLUGIN_SCANNER_WIDGET_H
 
 #include <QtGui>
+#include <QtWidgets>
 
 #include "Object.h"
 

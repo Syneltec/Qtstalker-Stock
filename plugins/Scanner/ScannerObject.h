@@ -22,8 +22,6 @@
 #ifndef PLUGIN_SCANNER_OBJECT_HPP
 #define PLUGIN_SCANNER_OBJECT_HPP
 
-#include <QStringList>
-
 #include "Object.h"
 
 class ScannerObject : public Object

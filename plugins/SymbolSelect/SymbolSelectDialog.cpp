@@ -72,29 +72,29 @@ SymbolSelectDialog::~SymbolSelectDialog ()
 void
 SymbolSelectDialog::createActions ()
 {
-  QAction *a = new QAction(QIcon(QPixmap(add_xpm), tr("Add"), this));
+  QAction *a = new QAction(QPixmap(add_xpm), tr("Add"), this);
   a->setToolTip(tr("Add selected to symbol list"));
   a->setStatusTip(tr("Add selected to symbol list"));
   connect(a, SIGNAL(triggered(bool)), this, SLOT(addButtonPressed()));
   _actions.insert(_ADD, a);
 
-  a = new QAction(QIcon(QPixmap(delete_xpm), tr("Remove"), this));
+  a = new QAction(QPixmap(delete_xpm), tr("Remove"), this);
   a->setToolTip(tr("Remove selected from symbol list"));
   a->setStatusTip(tr("Remove selected from symbol list"));
   connect(a, SIGNAL(triggered(bool)), this, SLOT(deleteButtonPressed()));
   _actions.insert(_DELETE, a);
 
-  a = new QAction(QIcon(QPixmap(select_all_xpm), tr("Select all symbols"), this));
+  a = new QAction(QPixmap(select_all_xpm), tr("Select all symbols"), this);
   a->setToolTip(tr("Select all symbols"));
   a->setStatusTip(tr("Select all symbols"));
   _actions.insert(_SELECT_ALL, a);
 
-  a = new QAction(QIcon(QPixmap(unselect_all_xpm), tr("Unselect all symbols"), this));
+  a = new QAction(QPixmap(unselect_all_xpm), tr("Unselect all symbols"), this);
   a->setToolTip(tr("Unselect all symbols"));
   a->setStatusTip(tr("Unselect all symbols"));
   _actions.insert(_UNSELECT_ALL, a);
 
-  a = new QAction(QIcon(QPixmap(search_xpm), tr("Perform Search"), this));
+  a = new QAction(QPixmap(search_xpm), tr("Perform Search"), this);
   a->setToolTip(tr("Perform Search"));
   a->setStatusTip(tr("Perform Search"));
   connect(a, SIGNAL(triggered(bool)), this, SLOT(searchButtonPressed()));

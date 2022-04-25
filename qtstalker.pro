@@ -131,25 +131,27 @@ SUBDIRS += plugins/LINEARREG
 #SUBDIRS += plugins/Plot
 #SUBDIRS += plugins/ROC
 #SUBDIRS += plugins/RSI
-#SUBDIRS += plugins/SAR
-#SUBDIRS += plugins/Scanner
-#SUBDIRS += plugins/SINE
-#SUBDIRS += plugins/STDDEV
-#SUBDIRS += plugins/STOCHF
-#SUBDIRS += plugins/STOCHRSI
-#SUBDIRS += plugins/STOCHS
-#SUBDIRS += plugins/SZ
-#SUBDIRS += plugins/Symbol
-#SUBDIRS += plugins/SymbolButton
-#SUBDIRS += plugins/SymbolSelect
+SUBDIRS += plugins/SAR
+SUBDIRS += plugins/Scanner
+SUBDIRS += plugins/SINE
+SUBDIRS += plugins/STDDEV
+SUBDIRS += plugins/STOCHF
+SUBDIRS += plugins/STOCHRSI
+SUBDIRS += plugins/STOCHS
+SUBDIRS += plugins/SZ
+SUBDIRS += plugins/Symbol
+SUBDIRS += plugins/SymbolButton
+SUBDIRS += plugins/SymbolSelect
 SUBDIRS += plugins/T3
 SUBDIRS += plugins/TRIX
 SUBDIRS += plugins/ULTOSC
 SUBDIRS += plugins/VAR
-SUBDIRS += plugins/ValuesDialog
 SUBDIRS += plugins/WILLR
 SUBDIRS += plugins/YahooHistory
 
+##SUBDIRS += plugins/Script
+##SUBDIRS += plugins/ValuesDialog
+
 # install docs and i18n
-#SUBDIRS += docs
+SUBDIRS += docs
 
